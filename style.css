@@ -1,0 +1,273 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    /* background-color: #141c3a; */
+}
+
+hr {
+    margin: 2rem 0rem;
+    border: none;
+}
+
+.container {
+    padding: 0.5rem 1rem;
+}
+
+.nav-brand-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    background-color: #6e07f3;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 1rem;
+
+}
+
+.navbar ul {
+    text-align: right;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 7.5px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    border-radius: 1rem;
+    color: #FFF;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.navbar a:hover {
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    padding: 7.5px;
+    border-radius: 1rem;
+    color: #FFF;
+}
+
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.hero img {
+    max-width: 80%;
+    width: 550px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: #6e07f3;
+    font-weight: bold;
+}
+
+.container-center {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Section */
+
+.section {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    /* border: 1px solid #6e07f3; */
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.al {
+    background-color: #f3f4f6;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.blogs-link {
+    max-width: 180px;
+    margin: 0.25rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid #6e07f3;
+    color: #6e07f3;
+}
+
+.projects-link {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: #6e07f3;
+    color: #fff;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    background-color: #6e07f3;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+
+.footer .link {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link:hover {
+    border: 1px solid #5be9b9;
+    padding: 10px;
+    box-shadow: 2.5px 5px #5be9b9;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    list-style: none;
+
+}
+
+/* projects */
+
+.projects {
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.projects-img {
+    max-width: 80%;
+    width: 500px;
+    /* height: 450px; */
+    display: block;
+    margin: auto;
+}
+
+.project-links {
+    text-decoration: none;
+    color: #6e07f3;
+}
+
+.off-white {
+    background-color: #f3f4f6;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    transition: 0.5s ease;
+}
+
+.blogs {
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.blogs a {
+    display: inline-block;
+}
+
+.projects a {
+    display: inline-block;
+}
+
+.blogs p {
+    line-height: 1.5rem;
+    padding: 0 8rem;
+    /* margin-bottom: 2rem; */
+}
+
+.projects p {
+    line-height: 1.5rem;
+    padding: 0 8rem;
+}
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+@media (max-width: 900px) {
+    body {
+        max-width: 95%;
+        width: 100%;
+    }
+
+    .list-item-inline {
+        display: inline;
+        padding: 0rem;
+    }
+
+    .container-center {
+        width: auto;
+    }
+
+    .link-primary {
+        display: block;
+    }
+
+    .blogs p {
+        padding: 0 1rem;
+    }
+
+    .projects p {
+        padding: 0 1rem;
+    }
+}
