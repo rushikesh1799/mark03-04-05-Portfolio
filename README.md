@@ -1,2 +1,5 @@
-# mark03 04 05 Portfolio
- Portfolio Website made as a part of Neog level One - mark four project
+# Portfolio
+
+Description - Portfolio Website made to showcase my projects and blogs for Neog.Camp
+
+Tech Stack : HTML, CSS and JS.
