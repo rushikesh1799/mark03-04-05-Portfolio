@@ -80,12 +80,16 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: #494749;
 }
 
 .hero .hero-heading .heading-inverted {
     color: #6e07f3;
     font-weight: bold;
+}
+
+.hero .hero-heading .my-name {
+    color: #000000;
 }
 
 .container-center {
@@ -269,5 +273,42 @@ hr {
 
     .projects p {
         padding: 0 1rem;
+    }
+
+    .nav-brand-name {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        padding: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero .hero-heading {
+        font-size: large;
+    }
+
+    .hero .hero-heading .my-name {
+        color: #000000;
+        display: block;
+        padding-top: 1rem;
+        font-size: x-large;
+    }
+
+    .navbar ul  {
+        text-align: center;
+        font-size: 90%;
+        padding-inline-start: 0px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .navbar ul  {
+        text-align: center;
+        font-size: 90%;
+        padding-inline-start: 0px;
     }
 }
